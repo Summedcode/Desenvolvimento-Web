@@ -20,6 +20,6 @@
         echo "<h3>$libras lbs = " . round($quilos, 2) . " kg</h3><br>";
     }
     ?>
-    <button onclick="window.location.href='dashboard.php'">Voltar para a página inicial</button>
+    <br><button onclick="window.location.href='dashboard.php'">Voltar para a página inicial</button>
 </body>
 </html>

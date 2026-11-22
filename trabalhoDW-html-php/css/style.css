@@ -46,6 +46,7 @@ input {
   border: 1px solid #bdc9dc;
   border-radius: 8px;
   font: inherit;
+  transition: border-color 0.2s;
 }
 
 input:focus {
@@ -64,6 +65,7 @@ button {
   font: inherit;
   font-weight: bold;
   cursor: pointer;
+  transition: background-color 0.2s;
 }
 
 button:hover {
@@ -90,6 +92,7 @@ nav a {
   border-radius: 10px;
   font-weight: bold;
   text-decoration: none;
+  transition: color 0.2s, border-color 0.2s;
 }
 
 nav a:hover {

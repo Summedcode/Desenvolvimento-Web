@@ -1,0 +1,15 @@
+.pagina-login {
+  min-height: 100vh;
+  max-width: 30rem;
+  align-content: center;
+}
+
+.pagina-login form {
+  padding: var(--espaco-gg) var(--espaco-g);
+}
+
+@media (max-width: 36rem) {
+  .pagina-login form {
+    padding: var(--espaco-g) var(--espaco-m);
+  }
+}

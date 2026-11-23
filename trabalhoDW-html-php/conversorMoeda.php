@@ -18,7 +18,7 @@
             <button class="botao" type="submit">Converter</button>
         </form>
         <div class="acoes">
-            <a class="botao botao-secundario" href="dashboard.php">Voltar ao painel</a>
+            <button class="botao botao-secundario" type="button" onclick="window.history.back()">Voltar</button>
         </div>
     </main>
 </body>

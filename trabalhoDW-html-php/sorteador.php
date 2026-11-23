@@ -21,7 +21,7 @@
             <p>Intervalo de <?= $min ?> a <?= $max ?>.</p>
         </section>
         <div class="acoes">
-            <a class="botao" href="sorteador.php">Sortear outro número</a>
+            <button class="botao" type="button" onclick="location.reload()">Sortear outro número</button>
             <a class="botao botao-secundario" href="dashboard.php">Voltar ao painel</a>
         </div>
     </main>

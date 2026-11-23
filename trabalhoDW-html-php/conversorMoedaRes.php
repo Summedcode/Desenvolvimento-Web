@@ -30,7 +30,7 @@
             ?>
         </section>
         <div class="acoes">
-            <a class="botao" href="conversorMoeda.php">Converter outro valor</a>
+            <button class="botao" type="button" onclick="window.history.back()">Converter outro valor</button>
             <a class="botao botao-secundario" href="dashboard.php">Voltar ao painel</a>
         </div>
     </main>

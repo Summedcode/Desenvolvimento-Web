@@ -153,12 +153,12 @@ input:focus {
 .resultado {
   display: grid;
   gap: var(--espaco-m);
+  overflow-wrap: anywhere;
 }
 
 .resultado strong {
   color: var(--azul-escuro);
   font-weight: bold;
-  overflow-wrap: anywhere;
 }
 
 .aviso {
